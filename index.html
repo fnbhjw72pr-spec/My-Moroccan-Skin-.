@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Moroccan Skin | Luxury Clean Skincare Inspired by Rituals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="announcement-bar">
+        <p>Complimentary UK delivery on orders over £70 • Crafted with Organic Moroccan Botanicals</p>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container">
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav-menu left-nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#shop" class="nav-link">Shop</a>
+                <a href="#story" class="nav-link">Our Story</a>
+            </nav>
+
+            <div class="brand-logo">
+                <a href="#home">My Moroccan Skin</a>
+            </div>
+
+            <nav class="nav-menu right-nav">
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact Us</a>
+                <a href="#shop" class="nav-link cart-link">Bag (<span id="cart-count">0</span>)</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mobile-overlay">
+        <nav class="mobile-nav">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#shop" class="mobile-link">Shop</a>
+            <a href="#story" class="mobile-link">Our Story</a>
+            <a href="#faq" class="mobile-link">FAQ</a>
+            <a href="#contact" class="mobile-link">Contact Us</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-subtitle">The Ancestral Ritual, Refined</span>
+                <h1 class="hero-title">Minimalist Botanicals for Radiant Skin</h1>
+                <p class="hero-description">Merging ancient Moroccan beauty wisdom with modern dermatological science. Vegan, cold-pressed, and consciously formulated in the UK.</p>
+                <div class="hero-actions">
+                    <a href="#shop" class="btn btn-primary">Explore The Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="ethos-section">
+            <div class="section-container text-center">
+                <h2 class="section-title-serif">Pure. Intentional. Slow-Crafted.</h2>
+                <p class="ethos-text">Inspired by the sensory landscapes of Morocco and the clean, structural minimalism of contemporary skincare. We source raw, wild-harvested ingredients directly from female-led cooperatives in the Atlas Mountains, establishing an uncompromising standard for premium, clean luxury.</p>
+                <div class="ethos-badges">
+                    <div class="badge">Cold-Pressed Oils</div>
+                    <div class="badge">Cruelty-Free</div>
+                    <div class="badge">Formulated in the UK</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="shop-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="sub-heading">The Essentials</span>
+                    <h2 class="section-title">The Moroccan Ritual Kit</h2>
+                </div>
+                
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <div class="product-image-placeholder oil-bg">
+                                <span class="bottle-silhouette"></span>
+                            </div>
+                            <button class="quick-add-btn" data-id="1" data-name="Pure Opuntia Face Oil">Quick Add</button>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">N°1 Pure Opuntia Face Oil</h3>
+                            <p class="product-category">Prickly Pear Seed Extract • 30ml</p>
+                            <p class="product-price">£72.00</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <div class="product-image-placeholder mist-bg">
+                                <span class="bottle-silhouette"></span>
+                            </div>
+                            <button class="quick-add-btn" data-id="2" data-name="Rosa Damascena Mist">Quick Add</button>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">N°2 Rosa Damascena Hydrosol Mist</h3>
+                            <p class="product-category">Steam-Distilled Rosewater • 100ml</p>
+                            <p class="product-price">£34.00</p>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-container">
+                            <div class="product-image-placeholder balm-bg">
+                                <span class="bottle-silhouette text-short"></span>
+                            </div>
+                            <button class="quick-add-btn" data-id="3" data-name="Nectar de Néroli Balm">Quick Add</button>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">N°3 Nectar de Néroli Night Balm</h3>
+                            <p class="product-category">Orange Blossom & Argan Concentrate • 50ml</p>
+                            <p class="product-price">£58.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="story-section">
+            <div class="story-container">
+                <div class="story-image-side">
+                    <div class="story-visual-placeholder"></div>
+                </div>
+                <div class="story-text-side">
+                    <span class="sub-heading">Our Heritage</span>
+                    <h2 class="section-title-serif">From the Atlas Mountains to London</h2>
+                    <p>My Moroccan Skin was born out of a desire to strip away the noise of modern cosmetics and return to purposeful, tactile skincare practices. Growing up with the generational secrets of the Moroccan Hammam, our founder sought to combine these restorative rituals with London’s standards for clean, sustainable cosmetic chemistry.</p>
+                    <p>Every bottle reflects deep respect for architectural minimalism, premium transparency, and the raw power of unrefined botanical lipids.</p>
+                    <a href="#shop" class="btn btn-outline">Read the Journal</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section">
+            <div class="section-container max-width-md">
+                <div class="text-center mb-50">
+                    <span class="sub-heading">Common Inquiries</span>
+                    <h2 class="section-title">Answering Your Questions</h2>
+                </div>
+
+                <div class="accordion-container">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Where are your ingredients sourced?</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Our key botanical ingredients, including our Prickly Pear Seed Oil and organic Argan oil, are ethically sourced directly from self-governed women's cooperatives across southwest Morocco and the Atlas regions. We ensure fair wages, safe working environments, and complete ingredient traceability.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Are your formulations suitable for sensitive skin?</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes. Following a philosophy similar to Typology, we maintain sparse, functional ingredient lists. We eliminate essential oils in high concentrations, synthetic fragrances, parabens, and fillers to keep products highly biocompatible with even the most sensitive skin profiles.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>How long will standard shipping within the UK take?</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We process all orders inside our London studio within 24–48 business hours. Standard UK delivery via Royal Mail tracked services takes approximately 2 to 4 business days. Next-day express shipping options are available at checkout.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>Are the glass bottles recyclable?</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Completely. In alignment with our commitment to reductionism, we use UV-protective, heavy amber and frosted glass vessels that are 100% recyclable. Our outer cartons are constructed using FSC-certified unbleached paper colored with natural soy inks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-container max-width-md">
+                <div class="text-center mb-50">
+                    <span class="sub-heading">Connect With Us</span>
+                    <h2 class="section-title">Our Concierge</h2>
+                    <p class="contact-subtitle">For bespoke skincare advice, order assistance, or wholesale inquiries, please complete the form below. Our London team responds within one working day.</p>
+                </div>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-row" style="display:flex; gap:20px; width:100%;">
+                            <div class="form-group" style="flex:1;">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="E.g., Elena Vance">
+                            </div>
+                            <div class="form-group" style="flex:1;">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="E.g., elena@example.com">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Inquiry Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="general">General Skincare Consultation</option>
+                            <option value="order">Order Tracking & Returns</option>
+                            <option value="wholesale">Stockist & Wholesale Proposals</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="How may we assist you with your skin journey?"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                    </div>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-brand-column">
+                <h3 class="footer-logo">My Moroccan Skin</h3>
+                <p class="footer-bio">A quiet architectural lens over ancient beauty elements. Rooted in Morocco, formulated responsibly in England.</p>
+            </div>
+            
+            <div class="footer-links-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop Essentials</a></li>
+                    <li><a href="#story">Our History</a></li>
+                    <li><a href="#faq">Journal & FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-column">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Charter</a></li>
+                    <li><a href="#">Shipping & Deliveries</a></li>
+                    <li><a href="#">Sustainability Statement</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter-column">
+                <h4>The Gazette</h4>
+                <p>Subscribe to accept rare formulations updates, private studio sales, and cultural skin stories.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to our Gazette.');">
+                    <input type="email" placeholder="Your email address" required aria-label="Email for newsletter">
+                    <button type="submit" aria-label="Subscribe">→</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 My Moroccan Skin Ltd. All Rights Reserved. Designed with absolute intention.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
